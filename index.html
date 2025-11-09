@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8">
+  <title>Moje Povezave</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 2rem;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 1rem;
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 32px;
+      height: 32px;
+      margin-bottom: 0.5rem;
+    }
+
+    .card a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h1>Moje Povezave</h1>
+  <div class="grid">
+    <div class="card">
+      <a href="https://medium.com/" target="_blank">
+        <img src="https://medium.com/favicon.ico" alt="Medium">
+        Medium
+      </a>
+    </div>
+    <div class="card">
+      <a href="https://github.com/" target="_blank">
+        <img src="https://github.com/favicon.ico" alt="GitHub">
+        GitHub
+      </a>
+    </div>
+    <div class="card">
+      <a href="https://www.python.org/" target="_blank">
+        <img src="https://www.python.org/favicon.ico" alt="Python">
+        Python
+      </a>
+    </div>
+    <div class="card">
+      <a href="https://cran.r-project.org/" target="_blank">
+        <img src="https://cran.r-project.org/favicon.ico" alt="CRAN">
+        CRAN
+      </a>
+    </div>
+    <div class="card">
+      <a href="https://openai.com/" target="_blank">
+        <img src="https://openai.com/favicon.ico" alt="OpenAI">
+        OpenAI
+      </a>
+    </div>
+    <div class="card">
+      <a href="https://platform.openai.com/docs/overview" target="_blank">
+        <img src="https://platform.openai.com/favicon.ico" alt="OpenAI Docs">
+        OpenAI Docs
+      </a>
+    </div>
+    <div class="card">
+      <a href="https://aistudio.google.com/" target="_blank">
+        <img src="https://aistudio.google.com/favicon.ico" alt="Google AI Studio">
+        Google AI Studio
+      </a>
+    </div>
+  </div>
+</body>
+</html>
